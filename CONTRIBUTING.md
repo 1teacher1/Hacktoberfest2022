@@ -38,7 +38,7 @@ If you liked working on this project, please share this project as much as you c
 
 4. The duplicate or copied content is strictly prohibited.
 
-5. The topic should be under Javascript Concepts. It might be even remotely related but no other than that.
+5. The topic could be anything but under separate folder. Please make sure the topic doesn't get mixed up with the folders.
 
 6. Donot remove previous contents.
 
