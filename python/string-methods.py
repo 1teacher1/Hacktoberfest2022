@@ -22,3 +22,5 @@ print(mystring.partition('the'))
 # To split the string at line breaks and returns a list
 print(mystring.splitlines())
 
+# Reverse string by indexing
+print(mystring[::-1])
