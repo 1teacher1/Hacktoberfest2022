@@ -2,6 +2,11 @@
 
 ## _A hacktoberfest2022 repo made lately to accept valid open source contribution._
 
+<div align="center">
+<img src= "https://external-preview.redd.it/d_6uprRJpBPS9-1ExJsjCWbbrQrHg8V1DxvTmCsSpH0.jpg?width=640&crop=smart&auto=webp&s=c86d4993194a52f9b1e39ccd6a929d532f380bf7" width= "800"/>
+</div>
+<br>
+
 # What is Hacktoberfest?
 
 Hacktoberfest is digitalocean’s annual event that encourages people to contribute to open source throughout October. much of modern tech infrastructure—including some of digitalocean’S own products—relies on open-source projects built and maintained by passionate people who often don’t have the staff or budgets to do much more than keep the project alive. Hacktoberfest is all about giving back to those projects, sharpening skills, and celebrating all things open source, especially the people that make open source so special.
