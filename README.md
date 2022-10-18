@@ -16,6 +16,11 @@ git clone https://github.com/your-username/Hacktoberfest2022.git
 ```markdown
 cd Hacktoberfest2022
 ```
+4. create a new branch
+
+```markdown
+git checkout -b <branch-name>
+```
 
 5. Make your changes
 
