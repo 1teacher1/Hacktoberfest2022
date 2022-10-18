@@ -1,0 +1,19 @@
+Why should we need to improve our apps with Cache?
+I really love the concept of “Start With Why”. so I will tell you Why first. as you may know, a database server has a limited request. maybe a 32k connection or below. what if you have e-commerce that has a big sale in one day, and you have 100k users active, or 1 million users active? how much you need to pay to have that database server? you can check on AWS Cloud or Azure Cloud to know that hehe. it's so expensive!
+
+ok, it's a problem right? for me and from my experience, we can use 2 methods. First Master-Slave concept, you can read my team article 
+Agustinus Theodorus
+ about Master-Slave, and you can choose what best for you right know between Master-Slave and Caching.
+
+Let's talk about Caching, What is caching? According to Wikipedia description, the cache is a hardware or software component that stores data so that future requests for that data can be served faster. ok, I will easily tell you. Let's say you have constant data, or data that only update at least 1 hour, or you can use a policy that the apps only get new data every 1 hour.
+
+
+so the application will request the data to API and API will check the memory, if there is not any data in the cache, API will get the data from Database. after that API will store the data to memory cache and store it for 1 hour. so if there another request from an application, the API didn't need to request to the database and only gets from the cache.
+
+so what if you need 1 million requests per second? you only need to multiply your API server, so it will be cheaper. because you didn't need to pay multiple Databases, you only need to multiple your API Server.
+So what is Redis?
+
+
+Redis is an in-memory data structure store, used as a distributed, in-memory key-value database, cache, and message broker, with optional durability. you can install Redis on a stand-alone server, and every API can store cache data and get data from Redis.
+
+for the best practice, you can install Redis in 3 clusters. so every API can write and read data from Redis with high availability.
