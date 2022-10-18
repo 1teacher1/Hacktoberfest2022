@@ -1,3 +1,4 @@
+# Python string methods to manipulate strings 
 mystring = "this is the string"
 
 # To capitalize the first letter of the string
@@ -20,3 +21,4 @@ print(mystring.partition('the'))
 
 # To split the string at line breaks and returns a list
 print(mystring.splitlines())
+
