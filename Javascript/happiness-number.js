@@ -30,3 +30,4 @@ function happinessNumber(smilies) {
 console.log(happinessNumber(":):(")) // -1
 console.log(happinessNumber("(:)"))  //  2
 console.log(happinessNumber("::::")) //  0
+console.log(happinessNumber(":)")) // 1
